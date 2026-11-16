@@ -1,15 +1,15 @@
 
-
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #f7f4fc;
+    color: #393044;
 }
 
 
+
 header {
-    background-color: #222;
+    background-color: #625078;
     color: white;
     padding: 20px;
     text-align: center;
@@ -17,26 +17,29 @@ header {
 
 header h2 {
     margin: 0 0 15px;
+    color: white;
 }
 
 
+
 nav a {
-    color: white;
+    color: #f5efff;
     text-decoration: none;
     margin: 10px;
 }
 
 nav a:hover {
-    color: #00bcd4;
+    color: #d8c2ff;
 }
+
 
 
 section {
     padding: 40px;
     margin: 20px auto;
     max-width: 900px;
-    background-color: white;
-    border-radius: 8px;
+    background-color: #ffffff;
+    border-radius: 10px;
 }
 
 
@@ -47,35 +50,74 @@ section {
 #home img {
     border-radius: 50%;
     margin-bottom: 15px;
+    border: 4px solid #d9c8f0;
 }
 
 #home a {
     display: inline-block;
-    background-color: #222;
+    background-color: #806a9e;
     color: white;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
 }
 
+#home a:hover {
+    background-color: #625078;
+}
+
+
 
 h1, h2 {
-    color: #222;
+    color: #59466f;
 }
 
 section h2 {
-    border-bottom: 2px solid #00bcd4;
+    border-bottom: 2px solid #c7b1e5;
     padding-bottom: 10px;
 }
 
 
 .card {
-    background-color: #f4f4f4;
+    background-color: #f5f0fa;
     padding: 15px;
     margin: 15px 0;
-    border-radius: 5px;
-    border-left: 4px solid #00bcd4;
+    border-radius: 7px;
+    border-left: 4px solid #a98bcf;
 }
+
+
+
+.skill {
+    margin: 20px 0;
+}
+
+.skill-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    color: #59466f;
+    font-weight: bold;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 10px;
+    background-color: #e8def3;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 100%;
+    background-color: #a98bcf;
+    border-radius: 10px;
+}
+
+.card h3 {
+    color: #625078;
+}
+
 
 
 li {
@@ -83,17 +125,19 @@ li {
 }
 
 
+
 a {
-    color: #008cba;
+    color: #8065a6;
 }
 
 a:hover {
-    color: #005f80;
+    color: #59466f;
 }
 
 
+
 footer {
-    background-color: #222;
+    background-color: #625078;
     color: white;
     text-align: center;
     padding: 15px;
